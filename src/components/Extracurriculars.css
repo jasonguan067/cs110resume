@@ -1,0 +1,19 @@
+.extracurriculars {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.extracurriculars h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-top:-1em;
+}
+
+.extracurriculars p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+.extracurriculars li {
+    padding-bottom: 1em;
+}

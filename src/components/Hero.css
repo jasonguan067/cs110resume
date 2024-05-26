@@ -1,0 +1,37 @@
+.hero {
+    text-align: left;
+    padding: 100px 25px;
+    background-color: #f4f4f4;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+
+.hero p {
+    font-size: 1.0em;
+    padding-left: 1em;
+    margin-top: -1.0em; 
+}
+
+.hero-name-container {
+    perspective: 1000px; /* Perspective for 3D effect */
+}
+
+.hero-name {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+    animation: jump 2s infinite ease-in-out;
+}
+
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}

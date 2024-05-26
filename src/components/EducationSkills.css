@@ -1,0 +1,22 @@
+.education-skills {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align:left;
+    
+}
+
+.education-skills h2 {
+    margin-top:-1em;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.education-skills h3 {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+.education-skills p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}

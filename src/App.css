@@ -1,0 +1,22 @@
+.App {
+  position: relative;
+  overflow: hidden;
+}
+
+.animated-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.Navbar,
+.Hero,
+.About,
+.EducationSkills,
+.Experience,
+.Extracurriculars,
+.Footer {
+  position: relative;
+  z-index: 1;
+}

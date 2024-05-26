@@ -1,0 +1,31 @@
+.typewriter {
+    display: inline-block;
+    overflow: hidden; /* Ensures text doesn't overflow its container */
+    border-right: 0.08em solid #000; /* Cursor effect */
+    white-space: nowrap; /* Prevents line breaks */
+    margin: 0; /* Optional: Adjust margin as needed */
+    font-family: 'Courier New', Courier, monospace; /* Optional: Adjust font */
+    font-size: 1.2em; /* Optional: Adjust font size */
+    animation: typing 1s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Cursor blinking animation */
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #000;
+    }
+}
